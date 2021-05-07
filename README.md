@@ -1,24 +1,16 @@
-# README
+# Fingest
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## É um sistema opensource criado por amigos do grupo codding para gestão de finanças pessoais
 
-Things you may want to cover:
+O proposito do sistema é ajudar pessoas que trabalham com clt e PJ a organizar suas finanças.
 
-* Ruby version
+## Tecnologias usadas
 
-* System dependencies
+### O sistema está separado em backend e frontend
+Este é o repositório de backend e usamos tecnologia _Ruby on Rails_
 
-* Configuration
+# Documentação
+[O manual do desenvolvedor](doc/menu.md)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Contribuição
+Toda ajuda é bem vinda. Contribua fazendo um pull request. Você pode fazer uma correção de bug ou implementar alguma coisa que planejamos. Estaremos divulgando os planejamentos nos issues.
