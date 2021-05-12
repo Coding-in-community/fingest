@@ -3,7 +3,7 @@
 ## Como trabalhamos?
 
 * [Commit e PR](como_trabalhamos/commit.md)
-* [Fluxo]
+* [Fluxo de desenvolvimento](como_trabalhamos/contributing.md)
 
 ## Diagrams
 
