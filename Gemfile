@@ -16,12 +16,16 @@ gem 'webpacker', '~> 5.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails', '~> 5.0.0'
 end
 
 group :development do
   gem 'listen', '~> 3.3'
   gem 'pry', '~> 0.13.1'
   gem 'rack-mini-profiler', '~> 2.0'
+  gem 'rubocop', require: false
+  gem 'reek'
+  gem 'solargraph'
   gem 'spring'
   gem 'web-console', '>= 4.1.0'
 end
