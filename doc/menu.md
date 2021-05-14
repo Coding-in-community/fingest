@@ -2,6 +2,7 @@
 
 ## Como trabalhamos?
 
+* [Como começar?](como_trabalhamos/getstart.md)
 * [Commit e PR](como_trabalhamos/commit.md)
 * [Fluxo de desenvolvimento](como_trabalhamos/contributing.md)
 
