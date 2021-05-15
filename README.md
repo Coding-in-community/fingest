@@ -25,9 +25,7 @@ Este é o repositório de backend e usamos tecnologia _Ruby on Rails_
 * Thiago Lima [@thiagolima86]
 * ricardostock [@ricardostock]
 * WavalRavick [@WavalRavick]
-* [Rafael Witt] @rafaelwitter
-* Rafael Witt @rafaelwitter
-
+* [@rafaelwitter](https://github.com/rafaelwitter)
 
 # Contribuição
 Toda ajuda é bem vinda. Contribua fazendo um pull request. Você pode fazer uma correção de bug ou implementar alguma coisa que planejamos. Estaremos divulgando os planejamentos nos issues.
