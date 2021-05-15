@@ -25,7 +25,7 @@ Este é o repositório de backend e usamos tecnologia _Ruby on Rails_
 * Thiago Lima [@thiagolima86]
 * ricardostock [@ricardostock]
 * WavalRavick [@WavalRavick]
-* [Rafael Witt](@rafaelwitter)
+* [Rafael Witt] @rafaelwitter
 
 
 # Contribuição
