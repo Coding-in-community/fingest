@@ -31,8 +31,13 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
-      - name: Run tests
-        run: bundle exec rake
+      - name: Cache RSpec results
+        uses: actions/cache@v2.1.5
+        with:
+          path: tmp/rspec
+          key: ${{ runner.os }}-parallel-rspec-log-$TIMESTAMP
+          restore-keys: |
+            ${{ runner.os }}-parallel-rspec-log-
 
       - name: Cache Rubocop
         uses: actions/cache@v2.1.5
