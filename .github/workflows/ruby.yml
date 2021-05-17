@@ -27,7 +27,15 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.6.6
+        
       - name: Install dependencies
         run: bundle install
+
       - name: Run tests
         run: bundle exec rake
+
+      - name: Cache Rubocop
+      uses: actions/cache@v2.1.5
+      with:
+        path: tmp/rubocop_cache
+        key: ${{ runner.os }}-rubocop-cache-${{ hashFiles('.rubocop.yml') }}-${{ hashFiles('.rubocop_todo.yml') }}
