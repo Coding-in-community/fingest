@@ -35,7 +35,7 @@ jobs:
         run: bundle exec rake
 
       - name: Cache Rubocop
-      uses: actions/cache@v2.1.5
-      with:
-        path: tmp/rubocop_cache
-        key: ${{ runner.os }}-rubocop-cache-${{ hashFiles('.rubocop.yml') }}-${{ hashFiles('.rubocop_todo.yml') }}
+        uses: actions/cache@v2.1.5
+        with:
+          path: tmp/rubocop_cache
+          key: ${{ runner.os }}-rubocop-cache-${{ hashFiles('.rubocop.yml') }}-${{ hashFiles('.rubocop_todo.yml') }}
