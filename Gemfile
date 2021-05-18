@@ -34,6 +34,8 @@ end
 
 group :test do
   gem 'capybara', '>= 3.26'
+  gem 'faker'
+  gem 'rspec', '~> 3.10'
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
