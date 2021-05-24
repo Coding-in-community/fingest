@@ -15,8 +15,8 @@ Este é o repositório de backend e usamos tecnologia _Ruby on Rails_
 
 # Mantenedores
 ## Equipe de desenvolvimento
+* Ariel351
 * Daniel Sampaio Pereira [@DanielSPereira]
-* Edison Brito [@EdisonSmart320]
 * Gabriel Neves Ayala [@Gabriel-Ayala]
 * Victor Souza [@KlowdyTMS]
 * Carlos Andrade [@krlosgilson]
