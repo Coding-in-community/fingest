@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -9,14 +11,16 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'jbuilder', '~> 2.7'
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
+gem 'react-rails'
 gem 'sass-rails', '>= 6'
 gem 'sqlite3', '~> 1.4'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 5.0'
-gem 'react-rails'
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'factory_bot_rails'
+  gem 'faker'
   gem 'rspec-rails', '~> 5.0.0'
 end
 
@@ -24,8 +28,8 @@ group :development do
   gem 'listen', '~> 3.3'
   gem 'pry', '~> 0.13.1'
   gem 'rack-mini-profiler', '~> 2.0'
-  gem 'rubocop', require: false
   gem 'reek'
+  gem 'rubocop', require: false
   gem 'solargraph'
   gem 'spring'
   gem 'web-console', '>= 4.1.0'
@@ -37,4 +41,4 @@ group :test do
   gem 'webdrivers'
 end
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
